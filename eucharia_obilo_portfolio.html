@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Eucharia Obilo Chinedu — Public Health Technologist focused on digital health, community health, research and maternal and child health.">
+<title>Eucharia Obilo Chinedu | Public Health & Digital Health</title>
+<style>
+:root{--navy:#12312b;--green:#1d5b4d;--mint:#eaf4ef;--orange:#e68b43;--cream:#fbfaf6;--ink:#20312c;--muted:#62716b;--line:#dce6df;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:10;background:rgba(251,250,246,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:15px 0}.brand{font-weight:850;letter-spacing:-.04em;color:var(--navy);text-decoration:none}.brand span{color:var(--orange)}nav{display:flex;gap:22px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--muted);font-size:.9rem;font-weight:650}nav a:hover{color:var(--green)}
+.hero{padding:88px 0 78px;background:radial-gradient(circle at 85% 10%,#f7e7d5 0,transparent 25%),linear-gradient(135deg,#f7faf6 0%,#eaf4ef 100%);border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.45fr .8fr;gap:55px;align-items:center}.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.16em;color:var(--green);font-weight:800}.hero h1{font-size:clamp(2.7rem,6vw,5.1rem);line-height:1.02;letter-spacing:-.065em;margin:18px 0 22px;color:var(--navy)}.hero h1 em{font-style:normal;color:var(--green)}.lead{font-size:1.13rem;max-width:650px;color:#52635c}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 19px;border-radius:999px;text-decoration:none;font-weight:750;font-size:.92rem;border:1px solid var(--green)}.btn.primary{background:var(--green);color:white}.btn.secondary{color:var(--green);background:transparent}.hero-card{background:var(--navy);color:white;border-radius:28px;padding:30px;box-shadow:0 20px 45px #12312b20;position:relative;overflow:hidden}.hero-card:after{content:"";position:absolute;width:180px;height:180px;border:1px solid #ffffff35;border-radius:50%;right:-65px;top:-70px;box-shadow:0 0 0 22px #ffffff0a,0 0 0 44px #ffffff08}.initials{height:72px;width:72px;border-radius:22px;background:var(--orange);display:grid;place-items:center;font-weight:900;font-size:1.6rem;color:var(--navy);margin-bottom:28px}.hero-card h2{font-size:1.35rem;margin:0 0 8px}.hero-card p{color:#d4e2db;margin:0 0 24px}.mini-label{color:#a8c8b8;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.focus-list{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.pill{font-size:.78rem;border:1px solid #ffffff35;border-radius:999px;padding:6px 10px;color:#f5fbf7}
+section{padding:76px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:30px}.section-head h2{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.1;letter-spacing:-.045em;color:var(--navy);margin:7px 0}.section-head p{max-width:500px;color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.about-copy p{color:#52635c}.quote{background:var(--mint);border-left:4px solid var(--orange);padding:22px 25px;border-radius:0 16px 16px 0;font-size:1.12rem;font-weight:650;color:var(--navy)}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.skill{background:white;border:1px solid var(--line);border-radius:15px;padding:17px;font-weight:700;font-size:.93rem}.skill small{display:block;color:var(--muted);font-weight:500;margin-top:5px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:20px;padding:25px;transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-3px);box-shadow:0 14px 28px #12312b0d}.card .date{font-size:.78rem;color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.08em}.card h3{margin:8px 0 5px;color:var(--navy);font-size:1.17rem;line-height:1.35}.card .org{color:var(--muted);font-size:.9rem;margin-bottom:12px}.card p,.card li{color:#52635c;font-size:.94rem}.card ul{padding-left:19px;margin-bottom:0}.wide-card{grid-column:1/-1}.tagrow{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}.tag{background:var(--mint);color:var(--green);font-size:.76rem;font-weight:750;padding:5px 9px;border-radius:999px}
+.timeline{border-left:2px solid var(--line);margin-left:8px;padding-left:25px;display:grid;gap:24px}.timeline-item{position:relative}.timeline-item:before{content:"";position:absolute;left:-33px;top:7px;width:13px;height:13px;background:var(--orange);border:3px solid var(--cream);border-radius:50%}.timeline-item h3{margin:0;color:var(--navy)}.timeline-item .meta{color:var(--green);font-weight:750;font-size:.85rem}.timeline-item p{margin:7px 0 0;color:var(--muted)}
+.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.edu{background:var(--mint);padding:22px;border-radius:17px}.edu h3{margin:5px 0;color:var(--navy)}.edu p{margin:0;color:var(--muted);font-size:.92rem}
+.contact{background:var(--navy);color:white;padding:70px 0}.contact h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;letter-spacing:-.05em;margin:10px 0}.contact p{color:#d4e2db;max-width:620px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.contact-links{display:grid;gap:11px}.contact-links a{color:white;text-decoration:none;border-bottom:1px solid #ffffff30;padding:10px 0;overflow-wrap:anywhere}.contact-links a:hover{color:#f7bd85}.footer{padding:20px 0;background:#0c241f;color:#b9cec4;font-size:.82rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{padding:60px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{gap:32px}.section-head{align-items:flex-start;flex-direction:column}.skills{grid-template-columns:repeat(2,1fr)}.cards,.edu-grid{grid-template-columns:1fr}.wide-card{grid-column:auto}section{padding:55px 0}}
+@media(max-width:420px){.skills{grid-template-columns:1fr}.hero h1{font-size:2.7rem}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a class="brand" href="#home">EO<span>.</span></a>
+<nav aria-label="Main navigation"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#research">Research & Talks</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Public Health · Digital Health · Community Impact</div>
+<h1>Eucharia<br><em>Obilo Chinedu</em></h1>
+<p class="lead">Public Health Technologist and digital health advocate committed to strengthening community health, supporting evidence-informed programmes, and exploring practical digital solutions for better maternal and child health.</p>
+<div class="actions"><a class="btn primary" href="#contact">Get in touch ↗</a><a class="btn secondary" href="#research">Explore my work</a></div>
+</div>
+<aside class="hero-card"><div class="initials">EO</div><div class="mini-label">Professional focus</div><h2>Health impact, supported by evidence.</h2><p>Bringing together community engagement, public health research, data collection and digital innovation.</p><div class="mini-label">Areas of interest</div><div class="focus-list"><span class="pill">Maternal & child health</span><span class="pill">Digital health</span><span class="pill">Immunization</span><span class="pill">Research</span></div></aside>
+</div></section>
+
+<section id="about"><div class="wrap"><div class="section-head"><div><div class="eyebrow">A little about me</div><h2>Public health with people at the centre.</h2></div><p>My work and learning sit at the intersection of community health, research, and accessible digital solutions.</p></div>
+<div class="about-grid"><div class="about-copy"><p>I am a Public Health Technology graduate of the Federal University of Technology, Owerri, with practical exposure to immunization campaigns, digital data collection, health education, and healthcare settings. I am interested in how trustworthy information and thoughtfully designed technology can help individuals and communities make informed health decisions.</p><p>I continue to build my skills through research training, professional development, global health networks, and participation in digital health initiatives. I value collaboration, accurate data, clear communication, and solutions shaped by the needs of the people they serve.</p></div><div><div class="quote">“Turning public health knowledge into practical, community-centred action.”</div><div style="margin-top:22px"><strong>Based in</strong><p style="margin:4px 0;color:var(--muted)">Owerri, Imo State, Nigeria</p><strong>Professional interests</strong><p style="margin:4px 0;color:var(--muted)">Digital health, health systems, infectious disease prevention, maternal and child health, and health advocacy.</p></div></div></div>
+</div></section>
+
+<section id="expertise" style="background:#f2f6f1"><div class="wrap"><div class="section-head"><div><div class="eyebrow">What I bring</div><h2>Core competencies</h2></div><p>A growing, practical skill set spanning programme support, research, communication, and digital tools.</p></div>
+<div class="skills">
+<div class="skill">Public health programmes<small>Implementation and field support</small></div>
+<div class="skill">Data collection & entry<small>Digital tools and record accuracy</small></div>
+<div class="skill">Data analysis<small>SPSS and research support</small></div>
+<div class="skill">Community health education<small>Outreach and health promotion</small></div>
+<div class="skill">Immunization support<small>Campaign participation and documentation</small></div>
+<div class="skill">Research & systematic reviews<small>Evidence gathering and training support</small></div>
+<div class="skill">Digital health & AI tools<small>Exploring technology-enabled health solutions</small></div>
+<div class="skill">UI/UX fundamentals<small>User-centred design principles</small></div>
+<div class="skill">Communication & teamwork<small>Collaboration across teams and communities</small></div>
+</div></div></section>
+
+<section id="experience"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Experience</div><h2>Learning through service and research</h2></div></div>
+<div class="cards">
+<article class="card"><div class="date">June 2026 – Present</div><h3>Associate Researcher</h3><div class="org">Centicini Research Lab</div><ul><li>Support internship training and academic publication activities.</li><li>Assist with systematic review training.</li></ul></article>
+<article class="card"><div class="date">February 2026</div><h3>Data Enumerator</h3><div class="org">Special Agro Processing Zone, Isiala Mbano</div><ul><li>Collected field data using digital data-collection tools.</li><li>Supported accurate recording of information for programme activities.</li></ul></article>
+<article class="card wide-card"><div class="date">2014</div><h3>Industrial Trainee</h3><div class="org">Federal University of Technology, Owerri Medical Centre</div><ul><li>Gained practical exposure to healthcare delivery and patient-care settings.</li><li>Supported medical staff with administrative and clinical tasks.</li><li>Participated in health education activities promoting disease prevention and healthy living.</li></ul></article>
+</div>
+</div></section>
+
+<section id="community" style="background:#f2f6f1"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Community engagement</div><h2>Supporting healthier communities</h2></div><p>Contributing to vaccination, public health awareness, and reliable field documentation.</p></div>
+<div class="cards">
+<article class="card"><div class="date">Immunization volunteer</div><h3>Meningitis A Immunization Campaign</h3><div class="org">Eziobodo Community, Owerri West, Imo State</div><ul><li>Helped communicate the importance of vaccination and disease prevention.</li><li>Supported campaign activities, vaccine distribution, and monitoring/reporting of adverse reactions within the campaign.</li><li>Contributed to community engagement and immunization implementation.</li></ul></article>
+<article class="card"><div class="date">Data collection volunteer</div><h3>Polio and Meningitis Immunization</h3><div class="org">Igboho Community, Oyo State</div><ul><li>Collected and documented information on children immunized against polio and meningitis.</li><li>Maintained records to support programme monitoring and evaluation.</li><li>Worked with local health workers toward immunization coverage goals.</li></ul></article>
+</div></div></section>
+
+<section id="research"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Research & knowledge sharing</div><h2>Evidence, learning and digital health</h2></div><p>Research interests centred on prevention, health communication, and solutions that respond to real community needs.</p></div>
+<div class="cards">
+<article class="card"><div class="date">Paper presentation · 2025</div><h3>Factors Affecting Human Papillomavirus (HPV) Vaccine Uptake in Owerri North LGA, Imo State, South-Eastern Nigeria</h3><p>Presented work focused on factors associated with HPV vaccine uptake, contributing to discussion around vaccine acceptance and prevention.</p><div class="tagrow"><span class="tag">Vaccination</span><span class="tag">Health promotion</span><span class="tag">Public health research</span></div></article>
+<article class="card"><div class="date">Invited speaker · 29 August 2026</div><h3>MaternAid-360 Webinar: Discussing the Findings, Informing the Progress</h3><div class="org">Grand Challenges Nigeria-funded project · Microsoft Teams</div><p>Presented progress on an interactive digital solution for self-risk assessment to improve maternal and child health in Nigeria.</p><div class="tagrow"><span class="tag">Maternal & child health</span><span class="tag">Digital health</span></div></article>
+<article class="card wide-card"><div class="date">Speaker · 2 September 2026</div><h3>MATERN-AID 360 App Seminar: Innovating Care. Empowering Mothers</h3><div class="org">School of Health Technology, Federal University of Technology, Owerri</div><p>Contributed to a seminar on an interactive digital solution for self-risk assessment and support to improve maternal and child health in Nigeria.</p><div class="tagrow"><span class="tag">Health innovation</span><span class="tag">Maternaid 360</span><span class="tag">Knowledge sharing</span></div></article>
+</div></div></section>
+
+<section id="leadership" style="background:#f2f6f1"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Networks & leadership</div><h2>Connected to a wider health community</h2></div></div>
+<div class="timeline">
+<div class="timeline-item"><h3>Online United Nations Volunteer</h3><div class="meta">United Nations Volunteers Programme · July 2025 – Present</div><p>Contributing to global health and community development initiatives through the UN Online Volunteering platform.</p></div>
+<div class="timeline-item"><h3>Member, Africa Youth in Digital Health Network (YiDHN)</h3><div class="meta">Africa CDC Youth Program · 2026 – Present</div><p>Part of a pan-African network supporting youth leadership in digital health innovation, policy, and governance.</p></div>
+<div class="timeline-item"><h3>Member, Africa Digital Health Academy (ADHA)</h3><div class="meta">Virtual Chapter · 2026 – Present</div><p>Engaged in an Africa-contextualized digital health and AI learning community, with associate, practitioner, and expert certification pathways.</p></div>
+</div></div></section>
+
+<section id="education"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Education & development</div><h2>Education and certifications</h2></div></div>
+<div class="edu-grid">
+<div class="edu"><div class="eyebrow">2015</div><h3>Bachelor of Technology in Public Health Technology</h3><p>Federal University of Technology, Owerri, Imo State, Nigeria</p></div>
+<div class="edu"><div class="eyebrow">July 2026</div><h3>Introduction to Infection Prevention and Control (IPC)</h3><p>World Health Organization (WHO)</p></div>
+<div class="edu"><div class="eyebrow">November 2025</div><h3>UI/UX Design Fundamentals</h3><p>Product GENE Academy</p></div>
+<div class="edu"><div class="eyebrow">2025</div><h3>SPSS Data Analysis & Introduction to AI Research Tools</h3><p>Easymade Academy</p></div>
+<div class="edu"><div class="eyebrow">2025</div><h3>Prevention of Malaria</h3><p>Global Health e-Learning</p></div>
+<div class="edu"><div class="eyebrow">2025</div><h3>5th International Congress on Health Sciences and Technology</h3><p>Certificate of Participation</p></div>
+<div class="edu"><div class="eyebrow">2024</div><h3>Getting Started with Microsoft 365</h3><p>Nigeria Learning Passport</p></div>
+<div class="edu"><div class="eyebrow">2023</div><h3>Cyber Scouting</h3><p>Rivers State Scout Council</p></div>
+</div></div></section>
+
+<section id="more"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Beyond the CV</div><h2>Personal details</h2></div></div><div class="cards">
+<div class="card"><h3>Languages</h3><p>English (fluent) · Igbo</p></div>
+<div class="card"><h3>Interests</h3><p>Community health development, infectious disease prevention, health policy, and advocacy.</p></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="wrap contact-grid"><div><div class="eyebrow" style="color:#f7bd85">Let's connect</div><h2>Interested in public health, research or digital health collaboration?</h2><p>I welcome professional connections, knowledge-sharing opportunities, and collaborations that support stronger community health and accessible digital health solutions.</p><a class="btn" style="border-color:#f7bd85;color:#fff;margin-top:10px" href="mailto:obiloeucharia16@gmail.com">Email Eucharia ↗</a></div>
+<div class="contact-links"><a href="mailto:obiloeucharia16@gmail.com">✉ obiloeucharia16@gmail.com</a><a href="tel:+2347032225517">☎ +234 703 222 5517</a><a href="https://www.linkedin.com/in/eucharia-obilo-8aa44a275" target="_blank" rel="noopener noreferrer">↗ LinkedIn profile</a><div style="color:#d4e2db;padding-top:10px">Owerri, Imo State, Nigeria</div></div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© <span id="year">2026</span> Eucharia Obilo Chinedu</span><span>Public Health · Digital Health · Community Impact</span></div></footer>
+</body></html>
